@@ -1,0 +1,9 @@
+mysql -u DBUSER -p
+CREATE DATABASE cr;
+use cr;
+create table caller (id int(6) NOT NULL auto_increment, number VARCHAR(20), name VARCHAR (20), blocked TINYINT NOT NULL DEFAULT '0', PRIMARY KEY (id));
+
+
+tomcat config file
+------------------
+/etc/apache2/sites-available/000-default.conf

@@ -1,0 +1,50 @@
+a:link {
+	text-decoration: underline;
+	color: black;
+}
+
+a:visited {
+	text-decoration: underline;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+a:active {
+        text-decoration: none;
+	color: grey;
+}
+
+body {
+	background-color: white;
+	font-family: sans-serif;
+}
+
+.errortable {
+	border: 5px solid red;
+	padding: 5px;
+}
+
+.errortext {
+	font-weight: bold;
+}
+
+.correcttable {
+        border: 5px solid green;
+        padding: 5px;
+}
+
+.correcttext {
+        font-weight: bold;
+}
+
+
+/*
+input {
+	background-color: white;
+	color: black;
+}
+*/
